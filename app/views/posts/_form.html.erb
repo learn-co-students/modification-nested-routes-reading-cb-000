@@ -1,5 +1,6 @@
 <%= form_for(@post) do |f| %>
   <label>Post title:</label><br>
+  <%= author_id_field(@post) %>
   <%= f.text_field :title %><br>
 
   <label>Post Description</label><br>
