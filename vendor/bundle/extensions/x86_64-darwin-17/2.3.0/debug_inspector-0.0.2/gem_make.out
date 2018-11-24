@@ -1,0 +1,15 @@
+current directory: /Users/lizjen/Development/code/modification-nested-routes-reading-cb-000/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/lizjen/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20181124-51365-1mxl3u1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/lizjen/Development/code/modification-nested-routes-reading-cb-000/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/lizjen/Development/code/modification-nested-routes-reading-cb-000/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/lizjen/Development/code/modification-nested-routes-reading-cb-000/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20181124-51365-15ejrra
