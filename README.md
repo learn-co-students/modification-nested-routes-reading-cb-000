@@ -1,5 +1,5 @@
 # Modifying Nested Resources
-
+testing modifications
 ## Objectives
 
 1. Understand how to handle modifications (create/update) of nested resources.
@@ -101,7 +101,7 @@ Now we know the `author_id` will be allowed for mass-assignment in the `create` 
 
 Let's try it out. Go to an author's new post page, and make a post. We should see the author's name in the byline now!
 
-Why didn't we have to make a nested resource route for `:create` in addition to `:new`? 
+Why didn't we have to make a nested resource route for `:create` in addition to `:new`?
 
 The `form_for(@post)` helper in `posts/_form.html.erb` will automatically route to `POST posts_controller#create` for a new `Post`. By carrying the `author_id` as we did and allowing it through strong parameters, the existing `create` route and action can be used without needing to do anything else.
 
